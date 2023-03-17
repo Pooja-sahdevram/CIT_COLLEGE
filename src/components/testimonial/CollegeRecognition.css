@@ -1,0 +1,165 @@
+.college-recognition {
+  /* display: flex; */
+  height: 100vh;
+  width: 100%;
+  /* align-items: center; */
+}
+
+.college-recognition-head {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.college-recognition-name {
+  color: rgb(42, 85, 155);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.college-recognition-info {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.main-ins-slider {
+  width: 90%;
+  height: 320px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+#slider {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  align-items: center;
+}
+
+.slider-icon {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  background: white;
+  position: absolute;
+  text-align: center;
+  border-radius: 50px;
+  opacity: 0;
+}
+
+.left {
+  left: 0;
+  cursor: pointer;
+}
+
+.right {
+  right: 0;
+  cursor: pointer;
+}
+
+.left:hover,
+.right:hover {
+  opacity: 1;
+}
+
+.slider-card {
+  height: 270px;
+  width: 320px;
+  display: inline-block;
+  border-radius: 20px;
+  margin: 0px 45px;
+  overflow-wrap: break-word;
+}
+
+.sc::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.slider-card-image {
+  height: 200px;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.slider-card-title {
+  color: rgb(42, 85, 155);
+  font-weight: bolder;
+  margin-top: -40px;
+}
+
+.slider-card-title,
+.slider-card-description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.slider-card-description {
+  font-weight: 500;
+  font-style: italic;
+  line-break: anywhere;
+}
+
+.slider-card-image-main {
+  height: 100px;
+  width: 120px;
+  margin: 0px 100px;
+  margin-top: 50px;
+}
+
+.main-company-slider {
+  width: 90%;
+  height: 158px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+.slider-company-card {
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  border-radius: 20px;
+  margin: 0px 45px;
+  overflow-wrap: break-word;
+}
+
+.slider-card-image-company {
+  height: 50px;
+  width: 100%;
+  /* margin: 0px 100px ; */
+  margin-top: 20px;
+}
+#c-slider {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.placement {
+  text-align: center;
+}
+.placement-com {
+  font-size: 25px;
+  color: rgb(52, 255, 96);
+  text-align: center;
+}
+
+.placement-slogan {
+  font-size: 25px;
+  margin: 0px 120px;
+}

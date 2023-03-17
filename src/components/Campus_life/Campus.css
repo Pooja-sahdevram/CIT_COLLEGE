@@ -1,0 +1,47 @@
+.first {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.first h2 {
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 50px;
+  display: inline;
+  float: left;
+  color: white;
+  text-shadow: 4px 0 5px rgb(0, 0, 0);
+}
+.first img {
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: 5%;
+  margin-left: -5%;
+}
+.desc h1 {
+  font-size: 70px;
+  margin-top: 3%;
+  color: white;
+
+  text-align: left;
+  max-width: 700px;
+}
+
+.desc p {
+  color: white;
+  margin-top: 0%;
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.campus {
+  background: linear-gradient(-45deg, #76126b, black, black, #16093e);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+.campusimage {
+  width: 98%;
+  height: 100%;
+  object-fit: "cover";
+}

@@ -1,0 +1,101 @@
+.Academics {
+  margin-top: 6rem 6rem;
+}
+.block-1 h2 {
+  font-size: 50px;
+  display: inline;
+  float: left;
+  margin-left: 1%;
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  text-shadow: 4px 0 5px rgb(100, 100, 100);
+  margin-top: 3rem;
+}
+.block-1 p {
+  font-size: 30px;
+  font-weight: 600px;
+  color: rgb(0, 0, 0);
+  margin-right: 50%;
+  text-align: start;
+  margin-left: 1%;
+  margin-top: 1rem;
+  text-align: justify;
+}
+.block-1 h3 {
+  font-size: 40px;
+  font-weight: 200px;
+  margin-top: 50px;
+  color: gray;
+  margin-right: 100%;
+  margin-left: 2%;
+  text-shadow: 2px 0 5px #000000;
+}
+.block-2 {
+  color: rgb(0, 0, 0);
+  border-radius: 2% black;
+  display: flex;
+  align-items: left;
+  font-size: 40px;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+  text-shadow: 0 0 5px white;
+}
+.block-3 {
+  color: rgb(0, 0, 0);
+  border-radius: 2% black;
+  display: flex;
+  align-items: left;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.block-3 a {
+  margin-left: 15%;
+  background: rgb(255, 254, 254);
+}
+.block-wrapper {
+  text-align: left;
+  border: #000000 solid 1px;
+  border-radius: 30px;
+  background-color: #f5efe7;
+  margin-top: 4.5rem;
+  width: 480px;
+  height: 450px;
+  font-weight: 200px;
+}
+.block-2 h3 {
+  font-size: 40px;
+  text-align: justify;
+}
+.block-3 h2 {
+  border: #000000 solid 1px;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: rgb(167, 167, 167);
+  cursor: none;
+}
+.block-3 a {
+  border: #000000 solid 1px;
+  border-radius: 50%;
+  height: 42px;
+  margin-top: 2px;
+  width: 42px;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+.branch1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.element :hover {
+  background: rgb(167, 167, 167);
+  color: rgb(0, 0, 0);
+}
