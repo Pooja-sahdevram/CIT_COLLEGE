@@ -48,11 +48,11 @@
   padding-right: 10px;
 }
 .nav-links:hover {
-  box-shadow: 0 0 2px #bfd8e9, 0 0 6px #4818ca, 0 0 18px #d280bf;
-  border-radius: 4px;
-  color: #ffffff;
-  transition: all 0.2s ease-in-out;
+  background: url("./navbg.svg");
+  animation: line 1s;
+  color: #d94f5c;
 }
+
 .menu-icone {
   display: none;
   margin-right: 20px;
@@ -92,11 +92,13 @@
     width: 100%;
     font-size: 1.2rem;
     padding: 1rem 0;
+    text-align: center;
   }
   .nav-links:hover {
     background-color: rgb(255, 255, 255);
     transition: none;
-    color: #222;
+    background: white;
+    color: #d94f5c;
   }
   .menu-icone {
     display: block;
@@ -105,5 +107,10 @@
   .menu-icone i {
     font-size: 1.2rem;
     color: #ffffff;
+  }
+}
+@keyframes line {
+  0% {
+    background-position-x: 390px;
   }
 }

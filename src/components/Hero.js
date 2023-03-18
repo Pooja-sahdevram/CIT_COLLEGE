@@ -15,7 +15,12 @@ function Hero(props) {
           alt="heroimage"
           src={pic}
           className="heroimage"
-          style={{ width: "98%", height: "100%", objectFit: "cover" }}
+          style={{
+            width: "98%",
+            height: "100%",
+            objectFit: "cover",
+            marginLeft: "1%",
+          }}
         />
         <div className="banner-content">
           <Cit />
