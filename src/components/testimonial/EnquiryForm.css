@@ -1,65 +1,70 @@
-
-.enquiry-form{
-    display: flex;
-    justify-content: center;
-    align-items: center !important;
-     height: 100vh;
-     position: absolute;
-     z-index: 10;
-     margin-right: auto;
-     width: 100vw;
-
+.enquiry-form {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
+  margin-right: auto;
+  width: 100vw;
 }
 
-.e-header-section{
-    border-bottom: 1px solid grey;
-    padding: 15px;
-    display: flex;
+.e-header-section {
+  border-bottom: 1px solid grey;
+  padding: 15px;
+  display: flex;
 }
 
-.enquiry-form-inner{
-    width: 500px;
-    background: linear-gradient(to bottom,rgb(211,180,240),rgb(235, 204, 204));
-    height: fit-content;
+.enquiry-form-inner {
+  width: 500px;
+  background: linear-gradient(
+    to bottom,
+    rgb(211, 180, 240),
+    rgb(235, 204, 204)
+  );
+  height: fit-content;
+  background-color: rgba($blueQueen, 0.15);
+  @include animation(wawes 6s infinite linear);
 }
 
-
-.e-header{
-    margin: 10px;
-    color: rgb(73, 69, 69);
-    width: 100%;
-    
+.e-header {
+  margin: 10px;
+  color: rgb(73, 69, 69);
+  width: 100%;
 }
 
-.form-area{
-    margin:20px;
-    background: rgba(141, 165, 168,.2);
-    text-align: center;
+.form-area {
+  margin: 20px;
+  background: rgba(141, 165, 168, 0.2);
+  text-align: center;
 }
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-.in{
-    width: 85%;
-    margin-left: 35px;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.e-h-en{
-    padding-top: 7px;
+.in {
+  width: 85%;
+  margin-left: 35px;
 }
 
-.cross{
-display: flex;
-justify-content: flex-end;
-width: 100%;
-cursor: pointer;
+.e-h-en {
+  padding-top: 7px;
 }
-.cross span{
-    background-color: rgb(73, 69, 69);
-    font-size: 25px;
-    padding: 10px;
-    border-radius: 25%;
-    color: white;
+
+.cross {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  cursor: pointer;
+}
+.cross span {
+  background-color: rgb(73, 69, 69);
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 25%;
+  color: white;
+}
+.s-btn {
+  border-radius: 50px;
 }

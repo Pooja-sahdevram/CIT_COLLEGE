@@ -16,21 +16,6 @@ import TCS from "../../assets/images/tata.jpg";
 const CollegeRecognition = () => {
   const slides = [
     {
-      image: BTU,
-      title: "BTU",
-      description: `Affilated to Bikaner  Technical University`,
-    },
-    {
-      image: RTU,
-      title: "RTU",
-      description: "Affilated to Rajasthan Technical University",
-    },
-    {
-      image: AICTE,
-      title: "AICTE",
-      description: "Approved by All India Council for Technical Education",
-    },
-    {
       image: ISTE,
       title: "ISTE",
       description: "Member of Indian Society for Technical Education",
@@ -164,7 +149,7 @@ const CollegeRecognition = () => {
   }, []);
 
   return (
-    <div id="sc">
+    <>
       <div className="college-recognition-head">
         <p className="college-recognition-name">
           Chartered Institute of Technology
@@ -174,10 +159,6 @@ const CollegeRecognition = () => {
 
       <div className="college-recognition">
         <div className="main-ins-slider">
-          <div className="slider-icon left" onClick={SlideLeft}>
-            {" "}
-            &lt;
-          </div>
           <div id="slider">
             {slides.map((slide, index) => {
               return (
@@ -187,12 +168,10 @@ const CollegeRecognition = () => {
                   </div>
                   <p className="slider-card-title">{slide.title}</p>
                   <p className="slider-card-description">{slide.description}</p>
+                  {console.log(slide, index)}
                 </div>
               );
             })}
-          </div>
-          <div className="slider-icon right" onClick={SlideRight}>
-            &gt;{" "}
           </div>
         </div>
 
@@ -216,7 +195,7 @@ const CollegeRecognition = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

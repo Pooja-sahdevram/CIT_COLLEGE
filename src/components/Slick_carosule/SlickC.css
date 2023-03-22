@@ -20,7 +20,7 @@
 }
 .part-2 h2 {
   margin-left: 5%;
-  font-size: 60px;
+  font-size: 75px;
   text-align: left;
   margin-top: 1%;
   color: white;
@@ -49,6 +49,7 @@
   border: 1px black;
   border-radius: 20px;
   font-weight: 600px;
+  overflow: hidden;
 }
 .part-2 video {
   border-radius: 30px;

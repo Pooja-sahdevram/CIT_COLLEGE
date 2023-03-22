@@ -8,6 +8,7 @@ import Scholership from "./routes/Scholership";
 import Studentcorener from "./routes/Studentcorener";
 import Contact from "./routes/Contact";
 import AboutUs from "./components/AboutUs";
+import Enquiry from "./components/testimonial/EnquiryFrom";
 export default function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/Studentcorener" element={<Studentcorener />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
+      <Enquiry />
     </div>
   );
 }

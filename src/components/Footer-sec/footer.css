@@ -1,5 +1,5 @@
 .footer {
-  background: #eef8ff;
+  background: #ffffff;
 }
 .wrapper {
   width: 100%;
@@ -9,7 +9,7 @@
   color: #fff;
   padding: 50px 0 20px;
   border-top-right-radius: 125px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
 }
 .first-section {
@@ -41,14 +41,23 @@
   margin-top: 0.5%;
   margin-bottom: 0.5%;
 }
-i {
+.desc i {
   margin-right: 10px;
 }
 
-a {
+.desc a {
   margin-right: 5px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
 }
 
+.desc a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
 .social-mediaicons .fa-brands {
   width: 40px;
   height: 40px;
@@ -70,7 +79,7 @@ a {
   max-width: 850px;
 }
 
-.social-mediaicons :hover {
+.fa-brands:hover {
   background-color: white;
   color: black;
 }

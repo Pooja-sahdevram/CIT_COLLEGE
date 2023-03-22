@@ -41,19 +41,19 @@ function Footer() {
             <div className="desc">
               <div>
                 {" "}
-                <a href=""></a>The Institute
+                <a href="">The Institute</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Vision & Mission
+                <a href="">Vision & Mission</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Location
+                <a href="">Location</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Mandatory Disclosure
+                <a href="">Mandatory Disclosure</a>
               </div>
             </div>
           </div>
@@ -67,27 +67,27 @@ function Footer() {
             <div className="desc">
               <div>
                 {" "}
-                <a href=""></a>Computer Science
+                <a href="">Computer Science</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Civil
+                <a href="">Civil</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Electrical
+                <a href="">Electrical</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Mechanical
+                <a href="">Mechanical</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Electronics & Communication
+                <a href="">Electronics & Communication</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Basic Science
+                <a href="">Basic Science</a>
               </div>
             </div>
           </div>
@@ -102,19 +102,19 @@ function Footer() {
             <div className="desc">
               <div>
                 {" "}
-                <a href=""></a>Principal Profile
+                <a href="">Principal Profile</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Faculty Profile
+                <a href="">Faculty Profile</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Admin Staff
+                <a href="">Admin Staff</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Recognition
+                <a href="">Recognition</a>
               </div>
             </div>
           </div>
@@ -128,19 +128,19 @@ function Footer() {
             <div className="desc">
               <div>
                 {" "}
-                <a href=""></a>Consolidated Marksheet
+                <a href="">Consolidated Marksheet</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Correction In Name
+                <a href="">Correction In Name</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Duplicate Certificate
+                <a href="">Duplicate Certificate</a>
               </div>
               <div>
                 {" "}
-                <a href=""></a>Migration Certificate
+                <a href="">Migration Certificate</a>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@ function Footer() {
             </h2>
             <div className="desc">
               <div>
-                <a href=""></a>Brochure
+                <a href="">Brochure</a>
               </div>
               <div className="x">
                 {" "}
@@ -170,11 +170,21 @@ function Footer() {
             <a> Privacy & Policy</a>
           </div>
           <div className="social-mediaicons">
-            <i class="fa-brands fa-facebook-f"></i>{" "}
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>{" "}
-            <i class="fa-brands fa-linkedin-in"></i>{" "}
-            <i class="fa-brands fa-pinterest-p"></i>{" "}
+            <a href="">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter"></i>{" "}
+            </a>
+            <a href="">
+              <i class="fa-brands fa-linkedin-in"></i>{" "}
+            </a>
+            <a href="">
+              <i class="fa-brands fa-pinterest-p"></i>{" "}
+            </a>
           </div>
         </div>
       </div>

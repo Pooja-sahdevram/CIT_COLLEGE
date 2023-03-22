@@ -2,6 +2,7 @@
   /* display: flex; */
   height: 100vh;
   width: 100%;
+  justify-content: center;
   /* align-items: center; */
 }
 
@@ -11,9 +12,10 @@
 }
 
 .college-recognition-name {
-  color: rgb(42, 85, 155);
-  font-size: 20px;
+  font-size: 25px;
+  color: #2505da;
   font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .college-recognition-info {
@@ -23,12 +25,13 @@
 }
 
 .main-ins-slider {
-  width: 90%;
+  align-content: center;
+  width: 80%;
   height: 320px;
   position: relative;
   display: flex;
   align-items: center;
-  margin-left: 5vw;
+  margin-left: 10%;
   margin-top: 5vh;
 }
 
@@ -39,7 +42,6 @@
   overflow-x: scroll;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  align-items: center;
 }
 
 .slider-icon {
@@ -47,6 +49,7 @@
   width: 40px;
   height: 40px;
   background: white;
+
   position: absolute;
   text-align: center;
   border-radius: 50px;
@@ -77,7 +80,7 @@
   overflow-wrap: break-word;
 }
 
-.sc::-webkit-scrollbar {
+.college-recognition ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
   background: transparent; /* Optional: just make scrollbar invisible */
 }
@@ -90,7 +93,7 @@
 }
 
 .slider-card-title {
-  color: rgb(42, 85, 155);
+  color: #9e1e9c;
   font-weight: bolder;
   margin-top: -40px;
 }
@@ -99,13 +102,14 @@
 .slider-card-description {
   display: flex;
   justify-content: center;
+
   text-align: center;
-  align-items: center;
 }
 
 .slider-card-description {
   font-weight: 500;
   font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-break: anywhere;
 }
 
@@ -137,7 +141,8 @@
 
 .slider-card-image-company {
   height: 50px;
-  width: 100%;
+  width: 80%;
+
   /* margin: 0px 100px ; */
   margin-top: 20px;
 }
@@ -154,12 +159,15 @@
   text-align: center;
 }
 .placement-com {
-  font-size: 25px;
-  color: rgb(52, 255, 96);
-  text-align: center;
+  font-size: 20px;
+  color: #2505da;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .placement-slogan {
   font-size: 25px;
   margin: 0px 120px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
 }

@@ -130,20 +130,24 @@ const EnquiryFrom = () => {
                 required
               />
             </div>
-            <button
-              className="btn mb-3"
-              onClick={() => {
-                formClose();
-              }}
-              style={{
-                background: "#16093E",
-                width: "85%",
-                color: "whitesmoke",
-              }}
-              type="submit"
-            >
-              {formStatus}
-            </button>
+            <div className="mb-3 in">
+              <button
+                className="s-btn"
+                onClick={() => {
+                  formClose();
+                }}
+                style={{
+                  background: "#16093E",
+                  width: "100%",
+                  padding: "2px",
+                  color: "whitesmoke",
+                  fontSize: "20px",
+                }}
+                type="submit"
+              >
+                {formStatus}
+              </button>
+            </div>
           </form>
         </div>
       </div>
