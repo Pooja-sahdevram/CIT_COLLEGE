@@ -19,8 +19,8 @@
   width: 500px;
   background: linear-gradient(
     to bottom,
-    rgb(211, 180, 240),
-    rgb(235, 204, 204)
+    rgb(209, 163, 251),
+    rgb(167, 233, 255)
   );
   height: fit-content;
   background-color: rgba($blueQueen, 0.15);

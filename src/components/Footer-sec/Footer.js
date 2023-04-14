@@ -10,8 +10,6 @@ function Footer() {
             <img src={logo} alt="img" className="footer-img" />
             <div className="desc">
               <div>
-                <br />
-
                 <i class="fas fa-map-marker-alt"></i>
                 <>
                   Chartered Institute of Technology Village Danvav, Mt. Road,

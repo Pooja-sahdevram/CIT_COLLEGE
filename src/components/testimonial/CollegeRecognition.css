@@ -1,6 +1,6 @@
 .college-recognition {
   /* display: flex; */
-  height: 100vh;
+  height: 100%;
   width: 100%;
   justify-content: center;
   /* align-items: center; */
@@ -13,7 +13,7 @@
 
 .college-recognition-name {
   font-size: 25px;
-  color: #2505da;
+  color: #2f1aa4;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
@@ -93,7 +93,7 @@
 }
 
 .slider-card-title {
-  color: #9e1e9c;
+  color: #1e209e;
   font-weight: bolder;
   margin-top: -40px;
 }
@@ -160,14 +160,15 @@
 }
 .placement-com {
   font-size: 20px;
-  color: #2505da;
+  color: #05da41;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .placement-slogan {
-  font-size: 25px;
+  font-size: 40px;
   margin: 0px 120px;
   margin-top: 20px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }

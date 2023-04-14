@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./NavbarStyles.css";
-import { MenuItems } from "../MenuItems";
+import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 import logo from "./../../assets/Logo1.png";
 import Home from "../../routes/Home";
@@ -28,7 +28,6 @@ class Navbar extends Component {
             return (
               <li key={index}>
                 <Link to={item.url} className={item.cName}>
-                  <i className={item.icon}> </i>
                   {item.title}
                 </Link>
               </li>
